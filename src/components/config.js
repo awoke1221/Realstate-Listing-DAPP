@@ -10,7 +10,30 @@ JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJjZG
 Pinata getway
 
 JWT: kRBuVLHJEp7Ut05PngXRXxSvudx9bu3tZYmXib_3OTQm_6orPb3_FPTi9aIS1ZhU
-
-
 */
+
+export const apiKey = '0f2053dea67482e5b933'
+export const apiSecret = 'bfae1ef0d6f46532d1a157024054109e6cb9665c481af8d4acfe1ea588b2e6cd'
+export const getwayjwt = 'kRBuVLHJEp7Ut05PngXRXxSvudx9bu3tZYmXib_3OTQm_6orPb3_FPTi9aIS1ZhU'
+export const ipfsgetway = 'gold-persistent-panther-331'
+
+
+export const readHader = {
+    'Content-Type': 'aplication/json'
+}
+
+export const getHeader = {
+    headers: {
+        pinata_api_key: apiKey,
+        pinata_api_secret_key: apiSecret
+    }
+}
+
+export const sendJsonHeader = {
+    headers: {
+        'Content-Type': 'aplication/json',
+        pinata_api_key: apiKey,
+        pinata_api_secret_key: apiSecret
+    }
+}
 
